@@ -67,12 +67,22 @@ npm install
 
 ## Running the Tests
 
-To execute all end-to-end test cases:
+npm init playwright@latest
+
+->typescript
+->...
+
 
 npx playwright test
 
+npx playwright test --headed 
 
-To view the HTML test report:
+npx playwright test --project=chromium
 
-npx playwright show-report#
+npx playwright show-report
+
+npx playwright test --ui
+
+#
+
 
