@@ -52,7 +52,7 @@ itpm-assignment-1/
 ---
 
 ## Prerequisites
-- Node.js (version 18 or above)
+- Node.js (version v22.14.0 or above)
 - npm (comes with Node.js)
 
 ---
@@ -84,5 +84,6 @@ npx playwright show-report
 npx playwright test --ui
 
 #
+
 
 
